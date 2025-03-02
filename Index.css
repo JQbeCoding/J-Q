@@ -15,12 +15,10 @@ body{
     background-color: #474343;
 }
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: light;
+    font-family: Font1;
+    font-weight: lighter;
     text-align: center;
-    font-size: 15vh;
-    margin-top: 5%;
-    margin-right:20%;
+    font-size: 10vh;
     color: #df7474;
 }
 p{
@@ -32,5 +30,42 @@ p{
 }
 #MainPicture{
     display: block;
-    margin: 0 auto;
+    margin: -15vh 100vh;
+}
+.Tabs{
+    cursor: pointer;
+    display:flex;
+    justify-content: left;
+    color: white;
+    font-family: Font2;
+    font-size: 13vh;
+    margin: 0 0 -11vh;
+}
+#tab{
+    padding: 30px 25px;
+    border-radius: 100px;
+}
+#tab:hover{
+    color:white;
+    background-color:#df7474;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+    
+}
+.Media{
+    color: white;
+    font-family: Font2;
+    font-size: 4vh;
+    text-align: right;
+}
+.Socials{
+    cursor: pointer;
+    height: 8vh;
+    width: 8vh;
 }
