@@ -18,7 +18,7 @@ h1{
     font-family: Font1;
     font-weight: lighter;
     text-align: center;
-    font-size: 10vh;
+    font-size: 18vh;
     color: #df7474;
 }
 p{
@@ -30,7 +30,7 @@ p{
 }
 #MainPicture{
     display: block;
-    margin: -15vh 100vh;
+    margin: -24vh 100vh;
 }
 .Tabs{
     cursor: pointer;
@@ -39,7 +39,7 @@ p{
     color: white;
     font-family: Font2;
     font-size: 13vh;
-    margin: 0 0 -11vh;
+    margin: 3vh 0 -11vh;
 }
 #tab{
     padding: 30px 25px;
@@ -68,4 +68,14 @@ a:visited{
     cursor: pointer;
     height: 8vh;
     width: 8vh;
+}
+#Bio{
+    font-size: 3.2vh;
+    color: white;
+    font-family: Font2;
+    text-align: left;
+}
+#Picture{
+    display: block;
+    margin: -50vh 125vh;
 }
