@@ -42,3 +42,16 @@ a:visited{
 a:hover{
     color: #df7474;
 }
+
+.Merch{
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    gap: 10vh;
+}
+#corvetteTee:hover{
+   cursor: pointer;
+   background-color: #df7474;
+   cursor: pointer;
+   margin: 0 2vh 3vh;
+}
