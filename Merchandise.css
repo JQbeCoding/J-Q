@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Font1;
+    src: url("Fonts/Rushfordclean-rgz89.otf");
+}
+@font-face {
+    font-family: Font2;
+    src: url("Fonts/DIN\ Condensed\ Bold.ttf");
+}
+@font-face {
+    font-family: Font3;
+    src: url("Fonts/Arial\ Black.ttf");
+}
+body{
+    background-color: #474343;
+}
+h1{
+    font-family: Font1;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 15vh;
+    color: #df7474;
+}
+h2{
+    font-family: Font2;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 11vh;
+    color: white;
+    margin-top: -15vh;
+}
+#backButton{
+    font-family: Font3;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: #df7474;
+}
