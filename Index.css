@@ -20,6 +20,7 @@ h1{
     text-align: center;
     font-size: 18vh;
     color: #df7474;
+    margin: auto auto -12vh;
 }
 p{
     font-family: Font1;
@@ -29,12 +30,11 @@ p{
     color: white;
 }
 #MainPicture{
-    display: block;
-    margin: -24vh 100vh;
+    display: flex;
+    margin: auto 40% -10%
 }
 .Tabs{
     cursor: pointer;
-    display:flex;
     justify-content: left;
     color: white;
     font-family: Font2;
@@ -74,8 +74,4 @@ a:visited{
     color: white;
     font-family: Font2;
     text-align: left;
-}
-#Picture{
-    display: block;
-    margin: -50vh 125vh;
 }
