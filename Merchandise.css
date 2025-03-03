@@ -47,12 +47,13 @@ a:hover{
     text-align: center;
     display: block;
 }
-#corvetteTee:hover{
+.corvetteMerch:hover{
    cursor: pointer;
    background-color: #df7474;
+   border-radius: 55%;
    margin: 0 2vh 5vh;
 }
-#corvetteTee{
+.corvetteMerch{
     cursor: pointer;
     margin: 13px;
  }
