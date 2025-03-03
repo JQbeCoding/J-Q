@@ -75,3 +75,7 @@ a:visited{
     font-family: Font2;
     text-align: left;
 }
+#Flick{
+    display: flex;
+    margin: -30% 64% -10%
+}

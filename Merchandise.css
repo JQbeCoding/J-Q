@@ -45,13 +45,14 @@ a:hover{
 
 .Merch{
     text-align: center;
-    display: flex;
-    justify-items: center;
-    gap: 10vh;
+    display: block;
 }
 #corvetteTee:hover{
    cursor: pointer;
    background-color: #df7474;
-   cursor: pointer;
-   margin: 0 2vh 3vh;
+   margin: 0 2vh 5vh;
 }
+#corvetteTee{
+    cursor: pointer;
+    margin: 13px;
+ }
